@@ -1,4 +1,142 @@
 <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aipan Art Gallery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fff8f0;
+            color: #333;
+        }
+        header {
+            background-color: #b71c1c;
+            padding: 20px;
+            text-align: center;
+            color: white;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        section {
+            padding: 40px;
+            text-align: center;
+        }
+        footer {
+            background-color: #b71c1c;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+        }
+        /* Gallery styling */
+        #gallery img {
+            width: 250px;
+            border-radius: 10px;
+        }
+        #gallery div {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: center;
+        }
+        /* Contact form styling */
+        form {
+            max-width: 400px;
+            margin: auto;
+            text-align: left;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 8px 0;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        button {
+            background-color: #b71c1c;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        /* WhatsApp floating button */
+        .whatsapp-button {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #25D366;
+            color: white;
+            border-radius: 50%;
+            padding: 15px;
+            font-size: 24px;
+            text-align: center;
+            cursor: pointer;
+            box-shadow: 0px 2px 5px rgba(0,0,0,0.3);
+        }
+        .whatsapp-button a {
+            color: white;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Art Gallery</h1>
+        <nav>
+            <a href="#about">About Us</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Welcome to  Art Gallery! We create beautiful traditional Kumaoni Aipan artworks and customised gifts.</p>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery">
+        <h2 style="color:#b71c1c;">Our Art Gallery</h2>
+        <div>
+            <img src="https://via.placeholder.com/250" alt="Aipan Art 1">
+            <img src="https://via.placeholder.com/250" alt="Aipan Art 2">
+            <img src="https://via.placeholder.com/250" alt="Aipan Art 3">
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section id="contact">
+        <h2 style="color:#b71c1c;">Contact Us</h2>
+        <form action="mailto:alliswell1985pp@gmail.com" method="post" enctype="text/plain">
+            <label>Name:</label>
+            <input type="text" name="name" required>
+            <label>Email:</label>
+            <input type="email" name="email" required>
+            <label>Message:</label>
+            <textarea name="message" rows="4" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <!-- WhatsApp Floating Button -->
+    <div class="whatsapp-button">
+        <a href="https://wa.me/918859972737" target="_blank">💬</a>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Aipan Art Gallery | All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>!DOCTYPE html>
 <html lang="hi">
 <head>
     <meta charset="UTF-8">
